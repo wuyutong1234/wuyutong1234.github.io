@@ -1,0 +1,15 @@
+---
+title: "NM2207 final project"
+---
+
+## NM2207 final project 
+
+### dairy entry (also found in Week 9 file)
+
+**What is the topic that I have finalized**
+
+I will be conducting an analysis of **insomnia** data with the aim of offering a succinct overview sleep difficulties. The goal is to provide users and viewers of the interactive data with a sense of connection at the demographic level and to inspire them with a range of coping techniques.
+
+**What are the data sources that I have curated so far?**
+
+I will be examining the primary factors that lead to insomnia, exploring its effects on health, and evaluating the effectiveness of coping strategies, all while considering variations across different age groups and genders.

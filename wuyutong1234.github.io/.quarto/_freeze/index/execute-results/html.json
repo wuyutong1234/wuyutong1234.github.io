@@ -1,10 +1,8 @@
 {
-  "hash": "9cd2988684b9cf2a6db2b02a75ddd2e8",
+  "hash": "b36187a110b70549df3d91efe6399e8f",
   "result": {
-    "markdown": "---\ntitle: \"About me\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
-    "supporting": [
-      "index_files"
-    ],
+    "markdown": "---\ntitle: \"About me\"\n---\n\n\n# Hello...\n\nI'm **Yutong**, a psychology student at the National University of Singapore (NUS). As an aspiring psychologist, I'm passionate about understanding the complexities of the human mind and using that knowledge to make a positive impact on people's lives.\n\nMy personality type is *INFJ*, which means I'm not only empathetic but also driven to help and support others in their personal growth and well-being. This innate quality fuels my dedication to my studies and my future career in psychology.\n\nWhen I'm not immersed in my academic pursuits, I find joy in the art of *dance* and the magic of *movies*. Dance allows me to express myself creatively and stay physically active, while movies offer a window into different worlds and human experiences. Both of these passions provide a delightful escape and a source of inspiration in my life.\n\n## My volunteering experience...\n\n## Dance and Movies...\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

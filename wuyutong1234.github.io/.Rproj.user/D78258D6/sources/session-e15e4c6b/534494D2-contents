@@ -1,13 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Yutong"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: About me
       - about.qmd
+      - index1.qmd
 
 format:
   html:
