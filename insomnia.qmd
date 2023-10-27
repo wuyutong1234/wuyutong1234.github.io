@@ -1,0 +1,13 @@
+---
+title: "Insomnia"
+---
+
+```{r, echo=FALSE, eval=TRUE}
+
+```
+
+```{=html}
+<iframe src="https://wuyutong1234.shinyapps.io/myapp/" width="800" height="600"></iframe> 
+```
+
+publicise app then insert the link
