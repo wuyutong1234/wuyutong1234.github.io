@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#nm2207-final-project" id="toc-nm2207-final-project" class="nav-link active" data-scroll-target="#nm2207-final-project">NM2207 final project</a>
   <ul class="collapse">
-  <li><a href="#dairy-entry-also-found-in-week-9-10-file" id="toc-dairy-entry-also-found-in-week-9-10-file" class="nav-link" data-scroll-target="#dairy-entry-also-found-in-week-9-10-file">dairy entry (also found in Week 9, 10 file)</a></li>
+  <li><a href="#dairy-entry-also-found-in-week-9-10-11-file" id="toc-dairy-entry-also-found-in-week-9-10-11-file" class="nav-link" data-scroll-target="#dairy-entry-also-found-in-week-9-10-11-file">dairy entry (also found in Week 9, 10, 11 file)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -141,8 +141,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="nm2207-final-project" class="level2">
 <h2 class="anchored" data-anchor-id="nm2207-final-project">NM2207 final project</h2>
-<section id="dairy-entry-also-found-in-week-9-10-file" class="level3">
-<h3 class="anchored" data-anchor-id="dairy-entry-also-found-in-week-9-10-file">dairy entry (also found in Week 9, 10 file)</h3>
+<section id="dairy-entry-also-found-in-week-9-10-11-file" class="level3">
+<h3 class="anchored" data-anchor-id="dairy-entry-also-found-in-week-9-10-11-file">dairy entry (also found in Week 9, 10, 11 file)</h3>
 <p><em>week 9</em></p>
 <p><strong>What is the topic that I have finalized</strong></p>
 <p>I will be conducting an analysis of <strong>insomnia</strong> data with the aim of offering a succinct overview sleep difficulties. The goal is to provide users and viewers of the interactive data with a sense of connection at the demographic level and to inspire them with a range of coping techniques.</p>
@@ -164,6 +164,31 @@ ul.task-list li input[type="checkbox"] {
 <p>solution: transfer all codes, including library(tidyverse), read.csv(), and data cleaning to app.R file so that when running the app, data files can be accessed.</p>
 <p>challenge 2: for my eventual data visualisation, I need to use a lot of variables from the data set and a lot of them have specific qualities which make it very messy to manipulate them</p>
 <p>solution: I tried to regroup and recategorise them by assigning 4 big titles: participants, sleep quality, casues, and coping skills; subsequently creating 4 different datasets. Within each group, there are also smaller groups like ASHS_total (Adolescent Sleep Hygiene Scale) and distinct categories of ASHS (eg. cognitive domain, emotional domain). I will further organise them by creating subgroups of data.</p>
+<p><em>week 11</em></p>
+<p><strong>The visualizations that I are going to use in your project</strong></p>
+<p><u>First group of visualisation</u>: I am going to plot age (Age) and gender (Sex) against severity of insomnia (ISI_total).</p>
+<ul>
+<li><p>Age-severity of insomnia: line plot</p></li>
+<li><p>Gender-severity of insomnia: bar plot</p></li>
+</ul>
+<p><u>Second group of visualisation:</u></p>
+<p>analyse causes of insomnia (BDI_total, ASHS_total, ASHS_physiological, ASHS_cognitive,ASHS_emotional, ASHS_SleepEnvirnmont, ASHS_DaytimeSleep, ASHS_substances, ASHS_bedtimeRoutine, ASHS_sleepStability, ASHS_BedroomSharing, DBAS_total, FIRST_total, GCTI_total, ACE_tot, asq_home, asq_school, asq_attendance, asq_romantic, asq_peer, asq_teacher, asq_future, asq_leisure, asq_finance, asq_responsibility)</p>
+<p>depression (BDI_total) -severity of insomnia: scatter plot</p>
+<p>sleep hygiene (ASHS_total) -severity of insomnia: scatter plot</p>
+<p>rank all sleep hygiene factors (ASHS_physiological, ASHS_cognitive,ASHS_emotional, ASHS_SleepEnvirnmont, ASHS_DaytimeSleep, ASHS_substances, ASHS_bedtimeRoutine, ASHS_sleepStability, ASHS_BedroomSharing): histogram</p>
+<p>predisposition to insomnia - severity of insomnia: scatter plot</p>
+<p>dysfunctional beliefs - severity of insomnia: scatter plot</p>
+<p>cognitive instrusiveness - severity of insomnia: scatter plot</p>
+<p>rank all stress factors (asq_home, asq_school, asq_attendance, asq_romantic, asq_peer, asq_teacher, asq_future, asq_leisure, asq_finance, asq_responsibility): histogram</p>
+<p>word cloud of all the causes of insomnia</p>
+<p>Third group of visualisation: compare effectiveness of coping skills - pie chart</p>
+<p><strong>How do I plan to make it interactive?</strong> **ggplot2**: to plot the graphs (scatter plot, histogram, bar plot, etc.)</p>
+<p>**shiny**: 1. create drop down bar for the viewer to select the specific factor he/she wants to focus at; 2. wordcloud to give a visual representation of the causes of insomnia</p>
+<p>**plotly, gganimate, transformr**: to make the graph mroe interactive portray a clearer story (eg. highlight the highest point on graph)</p>
+<p><strong>What concepts incorporated in my project were taught in the course and which ones were self-learnt?</strong> | Weeks | Topics | | :--- | :----: | | 2 | exploratory data analyses; intro to ggplot and shiny| | 3 | working with variables and summary statistics| | 5 | writing functions| | 7 | visualising data using ggplot| | 8 | visualising data using shiny| | | wordcloud in shiny | | | plotly | | | gganimate | | | transformr |</p>
+<p><strong>the challenges and errors that you faced and how I overcame them</strong></p>
+<p>**challenge 3** Initially, I wanted to show the ranking of causes of insomnia using histogram but when after data manipulation, I realised that the causes of insomnia are measured not on a consistent scale. Therefore, comparing all causes in a single graph is not valid.</p>
+<p>**solution** I decided to separate the data sets and regroup the causes into depression, sleep hygiene, predisposition, dysfunctional beliefs, cognitive intrusiveness. My focus is now changed to display their association with insomnia.</p>
 
 
 </section>
