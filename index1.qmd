@@ -6,7 +6,7 @@ title: "NM2207 final project"
 
 ### dairy entry (also found in Week 9, 10, 11 file)
 
-*week 9*
+## *week 9*
 
 **What is the topic that I have finalized**
 
@@ -16,7 +16,7 @@ I will be conducting an analysis of **insomnia** data with the aim of offering a
 
 I will be examining the primary factors that lead to insomnia, exploring its effects on health, and evaluating the effectiveness of coping strategies, all while considering variations across different age groups and genders.
 
-*week 10*
+## *week 10*
 
 **What is the question that I am going to answer?**
 
@@ -48,7 +48,7 @@ challenge 2: for my eventual data visualisation, I need to use a lot of variable
 
 solution: I tried to regroup and recategorise them by assigning 4 big titles: participants, sleep quality, casues, and coping skills; subsequently creating 4 different datasets. Within each group, there are also smaller groups like ASHS_total (Adolescent Sleep Hygiene Scale) and distinct categories of ASHS (eg. cognitive domain, emotional domain). I will further organise them by creating subgroups of data.
 
-*week 11*
+## *week 11*
 
 **The visualizations that I are going to use in your project**
 
@@ -86,10 +86,40 @@ Third group of visualisation: compare effectiveness of coping skills - pie chart
 
 \*\*plotly, gganimate, transformr\*\*: to make the graph mroe interactive portray a clearer story (eg. highlight the highest point on graph)
 
-**What concepts incorporated in my project were taught in the course and which ones were self-learnt?** \| Weeks \| Topics \| \| :\-\-- \| :\-\-\--: \| \| 2 \| exploratory data analyses; intro to ggplot and shiny\| \| 3 \| working with variables and summary statistics\| \| 5 \| writing functions\| \| 7 \| visualising data using ggplot\| \| 8 \| visualising data using shiny\| \| \| wordcloud in shiny \| \| \| plotly \| \| \| gganimate \| \| \| transformr \|
+**What concepts incorporated in my project were taught in the course and which ones were self-learnt?**
+
+\|week \| topic \|
+
+\|\-\-\-\-\-\-\--\|\-\-\-\-\-\-\--\|
+
+\| 2 \| exploratory data analyses; intro to ggplot and shiny\|
+
+\| 3 \| working with variables and summary statistics\|
+
+\| 4 \| tidy data\|
+
+\| 5 \| writing functions\|
+
+\| 6 \| loop\|
+
+\| 7 \| visualising data using ggplot\|
+
+\| 8 \| visualising data using shiny\|
+
+\| \| dslib \|
+
+\| \| dplyr \|
+
+: Topics/concepts applied {.striped .hover}
 
 **the challenges and errors that you faced and how I overcame them**
 
-\*\*challenge 3\*\* Initially, I wanted to show the ranking of causes of insomnia using histogram but when after data manipulation, I realised that the causes of insomnia are measured not on a consistent scale. Therefore, comparing all causes in a single graph is not valid.
+**challenge 3** Initially, I wanted to show the ranking of causes of insomnia using histogram but when after data manipulation, I realised that the causes of insomnia are measured not on a consistent scale. Therefore, comparing all causes in a single graph is not valid.
 
-\*\*solution\*\* I decided to separate the data sets and regroup the causes into depression, sleep hygiene, predisposition, dysfunctional beliefs, cognitive intrusiveness. My focus is now changed to display their association with insomnia.
+**solution** I decided to separate the data sets and regroup the causes into depression, sleep hygiene, predisposition, dysfunctional beliefs, cognitive intrusiveness. My focus is now changed to display their association with insomnia.
+
+## *week 12*
+
+**the challenges and errors that you faced and how I overcame them**
+
+**challenge 4** how I modify the plot to match the website them and create highlight to the point of focus

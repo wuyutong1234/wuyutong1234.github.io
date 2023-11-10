@@ -116,6 +116,10 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#dairy-entry-also-found-in-week-9-10-11-file" id="toc-dairy-entry-also-found-in-week-9-10-11-file" class="nav-link" data-scroll-target="#dairy-entry-also-found-in-week-9-10-11-file">dairy entry (also found in Week 9, 10, 11 file)</a></li>
   </ul></li>
+  <li><a href="#week-9" id="toc-week-9" class="nav-link" data-scroll-target="#week-9"><em>week 9</em></a></li>
+  <li><a href="#week-10" id="toc-week-10" class="nav-link" data-scroll-target="#week-10"><em>week 10</em></a></li>
+  <li><a href="#week-11" id="toc-week-11" class="nav-link" data-scroll-target="#week-11"><em>week 11</em></a></li>
+  <li><a href="#week-12" id="toc-week-12" class="nav-link" data-scroll-target="#week-12"><em>week 12</em></a></li>
   </ul>
 </nav>
     </div>
@@ -143,12 +147,17 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="nm2207-final-project">NM2207 final project</h2>
 <section id="dairy-entry-also-found-in-week-9-10-11-file" class="level3">
 <h3 class="anchored" data-anchor-id="dairy-entry-also-found-in-week-9-10-11-file">dairy entry (also found in Week 9, 10, 11 file)</h3>
-<p><em>week 9</em></p>
+</section>
+</section>
+<section id="week-9" class="level2">
+<h2 class="anchored" data-anchor-id="week-9"><em>week 9</em></h2>
 <p><strong>What is the topic that I have finalized</strong></p>
 <p>I will be conducting an analysis of <strong>insomnia</strong> data with the aim of offering a succinct overview sleep difficulties. The goal is to provide users and viewers of the interactive data with a sense of connection at the demographic level and to inspire them with a range of coping techniques.</p>
 <p><strong>What are the data sources that I have curated so far?</strong></p>
 <p>I will be examining the primary factors that lead to insomnia, exploring its effects on health, and evaluating the effectiveness of coping strategies, all while considering variations across different age groups and genders.</p>
-<p><em>week 10</em></p>
+</section>
+<section id="week-10" class="level2">
+<h2 class="anchored" data-anchor-id="week-10"><em>week 10</em></h2>
 <p><strong>What is the question that I am going to answer?</strong></p>
 <p>What is the gender and age disparity in insomnia (severity, causes and coping skills) in young adults?</p>
 <p><strong>Why is this an important question?</strong></p>
@@ -164,7 +173,9 @@ ul.task-list li input[type="checkbox"] {
 <p>solution: transfer all codes, including library(tidyverse), read.csv(), and data cleaning to app.R file so that when running the app, data files can be accessed.</p>
 <p>challenge 2: for my eventual data visualisation, I need to use a lot of variables from the data set and a lot of them have specific qualities which make it very messy to manipulate them</p>
 <p>solution: I tried to regroup and recategorise them by assigning 4 big titles: participants, sleep quality, casues, and coping skills; subsequently creating 4 different datasets. Within each group, there are also smaller groups like ASHS_total (Adolescent Sleep Hygiene Scale) and distinct categories of ASHS (eg. cognitive domain, emotional domain). I will further organise them by creating subgroups of data.</p>
-<p><em>week 11</em></p>
+</section>
+<section id="week-11" class="level2">
+<h2 class="anchored" data-anchor-id="week-11"><em>week 11</em></h2>
 <p><strong>The visualizations that I are going to use in your project</strong></p>
 <p><u>First group of visualisation</u>: I am going to plot age (Age) and gender (Sex) against severity of insomnia (ISI_total).</p>
 <ul>
@@ -185,13 +196,33 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>How do I plan to make it interactive?</strong> **ggplot2**: to plot the graphs (scatter plot, histogram, bar plot, etc.)</p>
 <p>**shiny**: 1. create drop down bar for the viewer to select the specific factor he/she wants to focus at; 2. wordcloud to give a visual representation of the causes of insomnia</p>
 <p>**plotly, gganimate, transformr**: to make the graph mroe interactive portray a clearer story (eg. highlight the highest point on graph)</p>
-<p><strong>What concepts incorporated in my project were taught in the course and which ones were self-learnt?</strong> | Weeks | Topics | | :--- | :----: | | 2 | exploratory data analyses; intro to ggplot and shiny| | 3 | working with variables and summary statistics| | 5 | writing functions| | 7 | visualising data using ggplot| | 8 | visualising data using shiny| | | wordcloud in shiny | | | plotly | | | gganimate | | | transformr |</p>
+<p><strong>What concepts incorporated in my project were taught in the course and which ones were self-learnt?</strong></p>
+<p>|week | topic |</p>
+<p>|--------|--------|</p>
+<p>| 2 | exploratory data analyses; intro to ggplot and shiny|</p>
+<p>| 3 | working with variables and summary statistics|</p>
+<p>| 4 | tidy data|</p>
+<p>| 5 | writing functions|</p>
+<p>| 6 | loop|</p>
+<p>| 7 | visualising data using ggplot|</p>
+<p>| 8 | visualising data using shiny|</p>
+<p>| | dslib |</p>
+<dl>
+<dt>| | dplyr |</dt>
+<dd>
+<p>Topics/concepts applied {.striped .hover}</p>
+</dd>
+</dl>
 <p><strong>the challenges and errors that you faced and how I overcame them</strong></p>
-<p>**challenge 3** Initially, I wanted to show the ranking of causes of insomnia using histogram but when after data manipulation, I realised that the causes of insomnia are measured not on a consistent scale. Therefore, comparing all causes in a single graph is not valid.</p>
-<p>**solution** I decided to separate the data sets and regroup the causes into depression, sleep hygiene, predisposition, dysfunctional beliefs, cognitive intrusiveness. My focus is now changed to display their association with insomnia.</p>
-
-
+<p><strong>challenge 3</strong> Initially, I wanted to show the ranking of causes of insomnia using histogram but when after data manipulation, I realised that the causes of insomnia are measured not on a consistent scale. Therefore, comparing all causes in a single graph is not valid.</p>
+<p><strong>solution</strong> I decided to separate the data sets and regroup the causes into depression, sleep hygiene, predisposition, dysfunctional beliefs, cognitive intrusiveness. My focus is now changed to display their association with insomnia.</p>
 </section>
+<section id="week-12" class="level2">
+<h2 class="anchored" data-anchor-id="week-12"><em>week 12</em></h2>
+<p><strong>the challenges and errors that you faced and how I overcame them</strong></p>
+<p><strong>challenge 4</strong> how I modify the plot to match the website them and create highlight to the point of focus</p>
+
+
 </section>
 
 </main> <!-- /main -->
