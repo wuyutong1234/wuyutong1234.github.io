@@ -4,7 +4,7 @@ title: "NM2207 final project"
 
 ## NM2207 final project
 
-### dairy entry (also found in Week 9, 10, 11 file)
+### dairy entry (also found in Week 9-12 file)
 
 ## *week 9*
 
@@ -108,9 +108,9 @@ Third group of visualisation: compare effectiveness of coping skills - pie chart
 
 \| \| dslib \|
 
-\| \| dplyr \|
+**\| \|** dplyr **\|**
 
-: Topics/concepts applied {.striped .hover}
+:   Topics/concepts applied {.striped .hover}
 
 **the challenges and errors that you faced and how I overcame them**
 
@@ -122,4 +122,10 @@ Third group of visualisation: compare effectiveness of coping skills - pie chart
 
 **the challenges and errors that you faced and how I overcame them**
 
-**challenge 4** how I modify the plot to match the website them and create highlight to the point of focus
+**challenge 4** When trying to make the plot more asthetic, I faced difficulty trying to customise the x-axis label as as there are 5 plots in the function and I don\'t know how to change x-axis label for each plot.
+
+**solution** instead of modifying the function of the app, I renamed the variable to the desired x-axis label. This is easier way to achieve my desired outcome.
+
+**challenge 5** The initial plan to use word cloud and animation is not actualised as when trying out the visualisation, the display is not clear and defeats the purpose of making the message clear to the viewers.
+
+**solution** Instead of word cloud and animation on the plots, I chose to make the ideas concise by using simple widgets (eg. radial button).
